@@ -47,13 +47,14 @@ function Home() {
               
               <div className="git-container">
               <Nav.Item className="fork-btn">
-              <Nav.Link href="https://github.com/vit-vivekkumar" target="_blank">
-                <Button className="fork-btn-inner">
+                <Button className="fork-btn-inner"
+                href="https://github.com/vit-vivekkumar"
+                target="_blank"
+                >
                   GitHub{" "}
                   <CgGitFork style={{ fontSize: "1em" }} />{" "}
                   <AiFillStar style={{ fontSize: "1em" }} />
                 </Button>
-              </Nav.Link>
             </Nav.Item>
           </div>
           <div className="scroll-container">
