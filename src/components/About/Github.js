@@ -14,6 +14,8 @@ function Github() {
         blockMargin={5}
         color="#096c1c"
         fontSize={16}
+        // hideColorLegend
+        // hideTotalCount
       />
     </Row>
   );
