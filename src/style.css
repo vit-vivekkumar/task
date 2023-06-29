@@ -428,7 +428,7 @@ button:focus {
   }
   .git-container {
     position: absolute;
-    bottom: -7px; /* Adjust the distance from the bottom as needed */
+    bottom: -15px; /* Adjust the distance from the bottom as needed */
     left: 2%;
     transform: translateX(7%);
   }
@@ -836,9 +836,9 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 30px !important;
   padding-bottom: 30px !important;
-  background-color: #efefeff2;
+  background-color: #fffffff2;
   /* background-image: var(--section-background-color) !important; */
   color: rgb(0, 0, 0) !important;
 }
