@@ -17,6 +17,7 @@ import ResumeNew from "../Resume/ResumeNew";
 import Home2 from "./Home2";
 // import Type from "./Type";
 
+
 function Home() {
   return (
     <section>
@@ -35,28 +36,28 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Vivek Vishwakarma</strong>
+                <strong className="main-name"> Vivek Vishwakarma 👨‍💻 </strong>
               </h1>
-              <small className="heading-mobile">
+              {/* <small className="heading-mobile">
               👨‍💻  Full-Stack Software Developer
-              </small>
+              </small> */}
               <div className="heading-stack">
                 <h1>Full Stack Developer</h1>
                 <small className="tagline">Python | ReactJS & NextJS | Django | AWS | ML | GitHub & Git | WebRTC | WebSocket | Celery and C++..</small>
               </div>
               
               <div className="git-container">
-              <Nav.Item className="fork-btn">
-                <Button className="fork-btn-inner"
-                href="https://github.com/vit-vivekkumar"
-                target="_blank"
-                >
-                  GitHub{" "}
-                  <CgGitFork style={{ fontSize: "1em" }} />{" "}
-                  <AiFillStar style={{ fontSize: "1em" }} />
-                </Button>
-            </Nav.Item>
-          </div>
+      <Nav.Item className="fork-btn">
+        <Button className="fork-btn-inner"
+          href="https://github.com/vit-vivekkumar"
+          target="_blank"
+        >
+          GitHub{' '}
+          <CgGitFork style={{ fontSize: '1em' }} />{' '}
+          <AiFillStar style={{ fontSize: '1em' }} />
+        </Button>
+      </Nav.Item>
+    </div>
           <div className="scroll-container">
           <div className="scroll-down">
             <span className="arrow"></span>

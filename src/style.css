@@ -390,11 +390,13 @@ button:focus {
 @media (max-width: 767px) {
   .heading {
     font-size: 1em !important;
-    padding-left: 10px !important;
-    color: #5c0ce6;
+    /* text-align: center; */
+    padding-left: 45px !important;
+    color: #020105;
   }
   
   .heading-name {
+    text-align: center;
     font-size: 1.4em !important;
     padding-left: 20px !important;
     color: #5c0ce6;
