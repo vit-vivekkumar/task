@@ -389,9 +389,9 @@ button:focus {
 }
 @media (max-width: 767px) {
   .heading {
-    font-size: 1em !important;
+    font-size: 0.7em !important;
     /* text-align: center; */
-    padding-left: 45px !important;
+    padding-left: 20px !important;
     color: #020105;
   }
   
