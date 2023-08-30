@@ -309,9 +309,9 @@ button:focus {
 .heading-stack h1 {
   font-size: 2.8em;
   font-weight: bolder;
-  color: #000000;
-  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
-  transform: perspective(400px);
+  color: #07042b;
+  /* text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); */
+  /* transform: perspective(400px); */
 }
 .heading-mobile{
   margin-left: 8px;

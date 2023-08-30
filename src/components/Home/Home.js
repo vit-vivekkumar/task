@@ -42,7 +42,7 @@ function Home() {
               👨‍💻  Full-Stack Software Developer
               </small> */}
               <div className="heading-stack">
-                <h1>Full Stack Developer</h1>
+                <h1>Python Developer</h1>
                 <small className="tagline">Python | ReactJS & NextJS | Django | AWS | ML | GitHub & Git | WebRTC | WebSocket | Celery and C++..</small>
               </div>
               
