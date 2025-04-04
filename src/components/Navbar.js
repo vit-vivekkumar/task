@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="https://www.linkedin.com/in/vivek-vishwakarma-15680116b/" className="d-flex2">
+        <Navbar.Brand href="https://www.linkedin.com/in/vivek-kumar-15680116b/" className="d-flex2">
           <img src={logo} className="img-fluid logo" alt="vivek" />
         </Navbar.Brand>
         <Navbar.Toggle
