@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #f5f5f5;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -277,13 +277,13 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding-top: 5rem !important;
   color: rgb(4, 4, 4);
   text-align: left;
 }
 @media (max-width: 767px) {
   .home-content {
-    padding: 1rem 0 1rem !important;
+    padding: 2rem 0 1rem !important;
     color: rgb(4, 4, 4);
     text-align: left;
   }
@@ -297,13 +297,13 @@ button:focus {
 
 .heading-name {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 0 !important;
   color: #5c0ce6;
 }
 
 .heading-stack {
   padding-top: 40px;
-  padding-left: 50px;
+  padding-left: 0;
 }
 
 .heading-stack h1 {
@@ -319,8 +319,8 @@ button:focus {
   color: #fffafa;
 }
 .scroll-down {
-  padding-top: 150px;
-  padding-left: 50px;
+  padding-top: 50px;
+  padding-left: 0px;
   display: flex;
 }
 
@@ -385,7 +385,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 11.5em !important;
 }
 @media (max-width: 767px) {
   .heading {
@@ -472,8 +472,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 50px !important;
+  padding-top: 0px !important;
 }
 
 .home-about-description {
@@ -505,8 +505,8 @@ button:focus {
 }
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+  font-size: 1em !important;
+  text-align: justify;
 }
 @media (max-width: 767px){
   .home-about-body {
@@ -861,6 +861,12 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .resume {
+    padding: 50px;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
@@ -976,4 +982,176 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* Education */
+/* --------- */
+.education-section {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.education-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  border-left: 4px solid #5c0ce6;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-marker {
+  width: 15px;
+  height: 15px;
+  background: #5c0ce6;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+}
+
+.timeline-content {
+  margin-left: 30px;
+}
+
+.timeline-content h3 {
+  font-size: 1.5em;
+  color: #5c0ce6;
+}
+
+.timeline-content p {
+  font-size: 1em;
+  color: #333;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #5c0ce6;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.download-link svg {
+  margin-right: 5px;
+}
+
+/* timeline */
+
+.vertical-timeline::before {
+  background: rgb(203, 198, 198) !important;
+}
+.vertical-timeline.vertical-timeline--one-column {
+  align-items: flex-start;
+}
+
+.vertical-timeline-element {
+  margin-left: auto;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
+/* skills */
+.skill-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  /* background-image: var(--section-background-color) !important; */
+  color: rgb(0, 0, 0) !important;
+}
+
+@media (max-width: 767px) {
+  .skill-section {
+    position: relative !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    /* background-image: var(--section-background-color) !important; */
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+.skills-heading {
+  font-size: 2.5em;
+  padding-bottom: 20px;
+}
+
+.skill-category {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+  font-size: 1.5em;
+  color: #6c63ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
 }
